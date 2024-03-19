@@ -45,6 +45,7 @@ This repository delves into various data engineering tools and techniques, inclu
 ### License
 
 This project is licensed under the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
+
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contributions:
