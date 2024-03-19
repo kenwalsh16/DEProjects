@@ -44,11 +44,13 @@ This repository delves into various data engineering tools and techniques, inclu
 
 **Note:** This is a suggested structure. Feel free to adapt it based on your specific project needs.
 
-### Contributing
-
-If you'd like to contribute your own data engineering projects, feel free to fork this repository and submit a pull request!
-
 ### License
 
 This project is licensed under the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Contributions:
+
+While I won't actively manage code contributions at this time, I appreciate your interest! If you have improvements or additional learning examples you'd like to share, feel free to reach out and we can discuss potential collaboration. 
+
+## Feel free to reach out if you have any questions!
