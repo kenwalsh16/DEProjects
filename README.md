@@ -42,8 +42,6 @@ This repository delves into various data engineering tools and techniques, inclu
     * Docker for containerization
     * Firebase for real-time backend
 
-**Note:** This is a suggested structure. Feel free to adapt it based on your specific project needs.
-
 ### License
 
 This project is licensed under the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
