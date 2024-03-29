@@ -1,0 +1,86 @@
+Sub ProcessWorksheets()
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim rng As Range
+    Dim rng1 As Range
+    Dim colName As Variant
+    Dim deleteFlag As Boolean
+    Dim previousRowWasEmpty As Boolean
+    
+    ' Array of column names to search for deletion
+    colName = Array("Total", "CY CUM", "PY CUM")
+
+    ' Loop through each worksheet in the workbook
+    For Each ws In ThisWorkbook.Worksheets
+
+       ' Task 1: Deletes the first three rows
+        ws.Rows("1:3").Delete Shift:=xlUp
+
+       ' Task 2: Getting a row of header columns.
+        ' Copy A1 and B1 to A2 and B2
+        ws.Range("A1:B1").Copy Destination:=ws.Range("A2:B2")
+        
+       ' Task 3: Delete the empty row at the top of the worksheets
+       ws.Rows(1).Delete Shift:=xlUp
+
+       ' Task 4: Delete rows 2 through 9 on the active worksheet
+       Set rng1 = ws.Rows("2:9")
+       rng1.Delete Shift:=xlUp
+
+       ' Task 5: Removes rows 3 and 8 - these are aggregate rows and are not required
+       ' Delete row 8 first because deleting row 2 first would shift the rows up
+       ws.Rows(8).Delete
+       ' Now delete row 3
+       ws.Rows(3).Delete
+
+       ' Task 6: REsolve the issue with multiple NAICs for one business type in cell A57
+       ws.Range("A57").Value = 722513
+       
+       ' Task 7: Delete Column P for spurious data
+       ws.Columns("P").Delete
+
+       ' Task 8: Delete unnecessary columns
+        deleteFlag = False ' This flag will be set to true once "ADJUSTED(2)" is found
+        previousRowWasEmpty = False ' This flag will be used to identify consecutive empty rows
+        lastRow = ws.Cells(ws.Rows.Count, "B").End(xlUp).Row ' Find the last row with data in column B
+        
+        ' Task 8a: Delete columns with specified names
+        For Each col In colName
+            ' Search for the column name in the first row
+            Set rng = ws.Rows(1).Find(What:=col, LookIn:=xlValues, LookAt:=xlWhole)
+            ' If found, delete the entire column
+            If Not rng Is Nothing Then rng.EntireColumn.Delete
+        Next col
+        
+        ' Task 8b: Delete rows starting from "ADJUSTED(2)" until first double empty row
+        ' Initialize index for the loop
+        Dim i As Long
+        For i = 1 To lastRow
+            ' Check if the current cell in column B is "ADJUSTED(2)"
+            If ws.Cells(i, 2).Value = "ADJUSTED(2)" Then
+                deleteFlag = True ' Set the delete flag once "ADJUSTED(2)" is found
+            End If
+            
+            ' When deleteFlag is True, start deleting rows
+            If deleteFlag Then
+                ' Check if current row is empty
+                If IsEmpty(ws.Cells(i, 1)) And IsEmpty(ws.Cells(i, 2)) Then
+                    ' If previous row was also empty, we've found two consecutive empty rows
+                    If previousRowWasEmpty Then Exit For ' Exit the loop if two consecutive empty rows are found
+                    previousRowWasEmpty = True ' Set the flag if the current row is empty
+                Else
+                    ' If current row is not empty, reset the flag
+                    previousRowWasEmpty = False
+                End If
+                
+                ' Delete the current row and decrement the counter to adjust for the shift in rows
+                ws.Rows(i).Delete
+                i = i - 1
+                lastRow = lastRow - 1 ' Adjust lastRow count since we've deleted a row
+            End If
+        Next i
+    Next ws
+End Sub
+
+
+

@@ -1,0 +1,57 @@
+NAICS  Code,Kind of Business,Jan. 2021,Feb. 2021(p)
+441.0,Motor vehicle and parts dealers,104255.0,102844.0
+4411.0,Automobile dealers,90463.0,88477.0
+44111.0,New car dealers,79954.0,77192.0
+44112.0,Used car dealers,10509.0,11285.0
+4413.0,"Automotive parts, acc., and tire stores",7718.0,7520.0
+442.0,Furniture and home furnishings stores,10707.0,10019.0
+4421.0,Furniture stores,6099.0,5691.0
+4422.0,Home furnishings stores,0.0,0.0
+44221.0,Floor covering stores,0.0,0.0
+442299.0,All other home furnishings stores,0.0,0.0
+443.0,Electronics and appliance stores,7066.0,6275.0
+443141.0,Household appliance stores,1631.0,1495.0
+443142.0,Electronics stores,5435.0,4780.0
+444.0,Building mat. and garden equip. and supplies dealers,31229.0,29581.0
+4441.0,Building mat. and supplies dealers,27143.0,25613.0
+44412.0,Paint and wallpaper stores,923.0,895.0
+44413.0,Hardware stores,2352.0,2203.0
+445.0,Food and beverage stores,71726.0,65894.0
+4451.0,Grocery stores,64785.0,59076.0
+44511.0,Supermarkets and other grocery (except convenience) stores,62085.0,56547.0
+4453.0,"Beer, wine, and liquor stores",5087.0,4974.0
+446.0,Health and personal care stores,29509.0,27775.0
+44611.0,Pharmacies and drug stores,25420.0,23752.0
+447.0,Gasoline stations,37214.0,36284.0
+448.0,Clothing and clothing access. stores,15740.0,16592.0
+4481.0,Clothing stores,10568.0,10683.0
+44811.0,Men's clothing stores,349.0,353.0
+44812.0,Women's clothing stores,2043.0,2069.0
+44814.0,Family clothing stores,5903.0,5920.0
+44819.0,Other clothing stores,1184.0,1187.0
+4482.0,Shoe stores,2213.0,2172.0
+44831.0,Jewelry stores,2640.0,3405.0
+451.0,"Sporting goods, hobby, musical instrument, and book stores",7421.0,6409.0
+45111.0,Sporting goods stores,4150.0,3819.0
+45112.0,"Hobby, toy, and game stores",1646.0,1444.0
+451211.0,Book stores,820.0,458.0
+452.0,General merchandise stores,59643.0,54183.0
+4521.0,Department stores,8327.0,7881.0
+452111.0,Department stores(excl. discount department stores),1273.0,1495.0
+452112.0,Discount dept. stores,7054.0,6386.0
+4529.0,Other general merchandise stores,51316.0,46302.0
+45291.0,Warehouse clubs and superstores,44568.0,39956.0
+45299.0,All other gen. merchandise stores,6748.0,6346.0
+453.0,Miscellaneous store retailers,11175.0,10508.0
+4532.0,"Office supplies, stationery, and gift stores",1756.0,1652.0
+45321.0,Office supplies and stationery stores,885.0,763.0
+45322.0,"Gift, novelty, and souvenir stores",871.0,889.0
+45330.0,Used merchandise stores,1385.0,1341.0
+454.0,Nonstore retailers,78677.0,73818.0
+4541.0,Electronic shopping and mail-order houses,69830.0,64683.0
+45431.0,Fuel dealers,4115.0,4423.0
+722.0,Food services and drinking places,52757.0,50475.0
+7224.0,Drinking places,0.0,0.0
+7225.0,Restaurants and other eating places,49022.0,46299.0
+722511.0,Full service restaurants,0.0,0.0
+722513.0,Limited service eating places,28457.0,25819.0

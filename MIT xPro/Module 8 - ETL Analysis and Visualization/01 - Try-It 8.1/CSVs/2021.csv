@@ -1,0 +1,59 @@
+NAICS  Code,Kind of Business,Jan. 2021,Feb. 2021(p)
+441,Motor vehicle and parts dealers,104255,102844
+"4411, 4412",Automobile and other motor vehicle dealers,96537,95324
+4411,Automobile dealers,90463,88477
+44111,New car dealers,79954,77192
+44112,Used car dealers,10509,11285
+4413,"Automotive parts, acc., and tire stores",7718,7520
+"442,443","Furniture, home furn, electronics, and appliance stores",17773,16294
+442,Furniture and home furnishings stores,10707,10019
+4421,Furniture stores,6099,5691
+4422,Home furnishings stores,(S),(S)
+44221,Floor covering stores,(S),(S)
+442299,All other home furnishings stores,(S),(S)
+443,Electronics and appliance stores,7066,6275
+443141,Household appliance stores,1631,1495
+443142,Electronics stores,5435,4780
+444,Building mat. and garden equip. and supplies dealers,31229,29581
+4441,Building mat. and supplies dealers,27143,25613
+44412,Paint and wallpaper stores,923,895
+44413,Hardware stores,2352,2203
+445,Food and beverage stores,71726,65894
+4451,Grocery stores,64785,59076
+44511,Supermarkets and other grocery (except convenience) stores,62085,56547
+4453,"Beer, wine, and liquor stores",5087,4974
+446,Health and personal care stores,29509,27775
+44611,Pharmacies and drug stores,25420,23752
+447,Gasoline stations,37214,36284
+448,Clothing and clothing access. stores,15740,16592
+4481,Clothing stores,10568,10683
+44811,Men's clothing stores,349,353
+44812,Women's clothing stores,2043,2069
+44814,Family clothing stores,5903,5920
+44819,Other clothing stores,1184,1187
+4482,Shoe stores,2213,2172
+44831,Jewelry stores,2640,3405
+451,"Sporting goods, hobby, musical instrument, and book stores",7421,6409
+45111,Sporting goods stores,4150,3819
+45112,"Hobby, toy, and game stores",1646,1444
+451211,Book stores,820,458
+452,General merchandise stores,59643,54183
+4521,Department stores,8327,7881
+452111,Department stores(excl. discount department stores),1273,1495
+452112,Discount dept. stores,7054,6386
+4529,Other general merchandise stores,51316,46302
+45291,Warehouse clubs and superstores,44568,39956
+45299,All other gen. merchandise stores,6748,6346
+453,Miscellaneous store retailers,11175,10508
+4532,"Office supplies, stationery, and gift stores",1756,1652
+45321,Office supplies and stationery stores,885,763
+45322,"Gift, novelty, and souvenir stores",871,889
+45330,Used merchandise stores,1385,1341
+454,Nonstore retailers,78677,73818
+4541,Electronic shopping and mail-order houses,69830,64683
+45431,Fuel dealers,4115,4423
+722,Food services and drinking places,52757,50475
+7224,Drinking places,(S),(S)
+7225,Restaurants and other eating places,49022,46299
+722511,Full service restaurants,(S),(S)
+"722513, 722514, 722515",Limited service eating places,28457,25819
