@@ -8,7 +8,7 @@ The project focused on data analysis using the Monthly Retail Trade Survey (MRTS
 
 **Project Goals**
 
-* Project Part One
+**Project Part One**
 
 For part 1 of the project, these were the goals:
 
@@ -44,7 +44,7 @@ For part 1 of the project, these were the goals:
 * `test.csv`: A NAICs code test file
 * `Try-It 8.1.ipynb`: A Jupyter notebook project file detailing the project and results.
 
-* Project Part Two
+**Project Part Two**
 
 For part 2 of the project, these were the goals:
 
